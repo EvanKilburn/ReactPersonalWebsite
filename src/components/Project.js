@@ -12,7 +12,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={BakeryLogo} alt="Speltacular Baking Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a></p>
             </div>
         )
     }
@@ -22,7 +22,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={StockOverflowLogo} alt="Stock Overflow Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a><br/><a href={devpostLink}>Devpost</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a><br/><a href={devpostLink}>Devpost</a></p>
             </div>
         )
     }
@@ -32,7 +32,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={BudgyLogo} alt="Budgy Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a><br/><a href={devpostLink}>Devpost</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a><br/><a href={devpostLink}>Devpost</a></p>
             </div>
         )
     }
@@ -42,7 +42,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={ChessLogo} alt="Checkmate Finder Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a></p>
             </div>
         )
     }
@@ -52,7 +52,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={VeilLogo} alt="Veil Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a></p>
             </div>
         )
     }
@@ -62,7 +62,7 @@ const Project = ({projectName, stack, date, description, githubLink, devpostLink
                 <img src={SmartWindowsLogo} alt="Smart Windows Logo" className="projectLogo"/>
                 <h3>{projectName}</h3>
                 <h5>{date}</h5>
-                <p>Stack: {stack}<br/>{description}<br/><a href={githubLink}>GitHub</a></p>
+                <p>Stack: {stack}<br/><br/>{description}<br/><a href={githubLink}>GitHub</a></p>
             </div>
         )
     }
